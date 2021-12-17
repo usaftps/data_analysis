@@ -107,7 +107,7 @@ def tps_title(
     plt.show()
 
 # Example
-if run_example == True:
+if run_example:
     x = ([1,14])
     y = ([1,10])
     plt.plot(x, y)
