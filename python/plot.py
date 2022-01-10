@@ -11,7 +11,8 @@ def tps_title(
         fonts=None,
         file_name=None):
 
-    """tps_title creates a standard TPS plot
+    """
+    tps_title creates a standard TPS plot
 
     Function arguments should be entered as keyword arguments
     
@@ -29,7 +30,8 @@ def tps_title(
         
     Example:
     example_run -- When 'example_run = True' an example plot will be displayed 
-        and saved to the .png file named 'myplot.png'."""
+        and saved to the .png file named 'myplot.png'.
+    """
     
     if (big_title == None or col_text == None or axis_label == None):
         print('big_title, col_text, and axis_label are required arguments')
